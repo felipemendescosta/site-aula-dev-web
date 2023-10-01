@@ -1,0 +1,93 @@
+div {border: 0px solid;}
+
+#geral {
+    height: 200px;
+     width: 1000px; 
+     width: 100%;
+    }
+
+#topo {height: 200px; 
+    background-image:url(imagem/sus.png);
+}
+
+body {font-family: Arial, sans-serif; 
+    margin: 0; 
+    padding: 0; 
+    background-color: #fff;
+}
+
+#menu {background-color: #333; 
+    overflow: hidden;
+}
+
+#menu a {float: left; 
+    display: block; 
+    color: #0b5e40; 
+    text-align: center; 
+    padding: 14px 16px; 
+    text-decoration: none;
+    font-weight: bold; 
+    transition: background-color 0.3s, color 0.3s;
+}
+
+#menu a:hover {
+    background-color: #0b5e40; 
+    color: #fff;
+}
+
+#menu .active {
+    background-color: #0b5e40; 
+    color: #fff
+}
+#conteudo {
+    background: green; 
+    height: 500px;
+}
+
+
+
+footer {
+    background: darkgreen; 
+    color: white; 
+    padding: 20px; 
+    text-align: center;
+}
+footer a {
+    color: white; 
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+table {
+    width: 100%; 
+    border-collapse: collapse; 
+    background-color: #4CAF50; 
+    color: darkgreen;
+}
+
+table, th, td {
+    border: 1px solid #4CAF50;
+}
+
+th, td {padding: 12px;
+    text-align: left;
+}
+
+th {
+    background-color: #8BC34A; 
+    font-size: 18px; 
+    font-weight: bold;
+}
+tr:nth-child(even) {
+    background-color: #CDDC39;
+}
+
+tr:nth-child(odd) {
+    background-color: #7CB342;
+}
